@@ -1,0 +1,171 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5efe6;
+  text-align: center;
+  padding: 80px;
+}
+
+h1 {
+  color: #5c3d2e;
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.foto-cafe {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 15px;
+  margin: 20px auto;
+  display: block;
+}
+
+section {
+  background-color: white;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+h2 {
+  color: #5c3d2e;
+}
+
+button {
+  background-color: #5c3d2e;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#listaMenu p {
+  background-color: #f5efe6;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.contacto {
+  display: inline-block;
+  background-color: #5c3d2e;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.contacto:hover {
+  background-color: #7a523d;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 30px 15px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  section {
+    padding: 20px;
+  }
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto 40px;
+  padding: 15px 20px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #5c3d2e;
+}
+
+nav a {
+  color: #5c3d2e;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav a {
+    margin: 0 5px;
+    font-size: 14px;
+  }
+}
+.hero {
+  background-color: white;
+  max-width: 900px;
+  margin: 0 auto 40px;
+  padding: 50px 25px;
+  border-radius: 20px;
+}
+
+.hero h1 {
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.boton-hero {
+  display: inline-block;
+  background-color: #5c3d2e;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.boton-hero:hover {
+  background-color: #7a523d;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 500px;
+  margin: 20px auto 0;
+}
+
+input,
+textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
